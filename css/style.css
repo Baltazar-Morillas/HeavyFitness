@@ -40,7 +40,7 @@
     display: flex;
 }
 
-.header li, .footer li, .footer div{
+.header li, .footer div{
     margin: 15px;
     font-family: 'Kanit', sans-serif;;
 }
