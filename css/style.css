@@ -17,7 +17,7 @@
 /* HEADER */
 
 .header{
-    background-color: #1a1423;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-around; 
@@ -29,7 +29,7 @@
 }
 
 .header h1{
-    color: #ffff;
+    color: white;
     display: flex;
     justify-content: center;
     font-family: 'Kanit', sans-serif;;
@@ -46,7 +46,7 @@
 }
 
 .header a, .footer a{
-    color: #ffff;
+    color: white;
     text-decoration: none;
 }
 
@@ -69,6 +69,7 @@ h2{
 }
 
 /* GRID */
+
 
 .main-contacto{
     display: grid;
@@ -96,11 +97,11 @@ h2{
 /* FOOTER */
 
 .footer{
-    background-color: #1a1423;
+    background-color: black;
 }
 
 .footer ul{
-    color: #ffff;
+    color: white;
     list-style: none;
     display: flex;
     width: 400px;
