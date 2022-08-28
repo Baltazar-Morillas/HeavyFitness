@@ -58,9 +58,14 @@
 /* MAIN */
 
 main{
+    background: linear-gradient(white, rgb(173, 172, 172));
     min-height: 80vh;
     font-family: 'Kanit', sans-serif;;
-    margin: 20px;
+    padding: 20px;
+}
+
+.main-accesorios img, .main-suplementos img{
+    padding: 20px;
 }
 
 h2{
