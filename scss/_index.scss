@@ -10,7 +10,7 @@
     }
 
     h1 {
-        color: white;
+        color:$color-w;
         display: flex;
         justify-content: center;
         font-family: 'Kanit', sans-serif;
@@ -29,11 +29,11 @@
     }
 
     a {
-        color: white;
+        color:$color-w;
         text-decoration: none;
 
         &:hover {
-            color: #14ffef;
+            color: $color-tur;
             font-weight: bold;
         }
     }
@@ -75,18 +75,33 @@ main {
     background-color: black;
 
     ul{
-        color: white;
+        color:$color-w;
         list-style: none;
         display: flex;
         width: 400px;
         margin: 0 auto;
         justify-content: center;
+
+        div{
+            margin: 15px;
+            font-family: 'Kanit', sans-serif;;
+
+            a{
+                color: $color-w;
+                text-decoration: none;
+
+                &:hover{
+                    color:$color-tur;
+                    font-weight: bold;
+                }
+            }
+        }
     }
 
     p{
         margin: 0;
     }
-
+    
     i{
         padding: 5px; 
     }

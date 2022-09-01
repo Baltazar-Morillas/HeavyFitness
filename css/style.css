@@ -65,6 +65,15 @@ main .textoInicio {
     width: 400px;
     margin: 0 auto;
     justify-content: center; }
+    .footer ul div {
+      margin: 15px;
+      font-family: 'Kanit', sans-serif; }
+      .footer ul div a {
+        color: white;
+        text-decoration: none; }
+        .footer ul div a:hover {
+          color: #14ffef;
+          font-weight: bold; }
   .footer p {
     margin: 0; }
   .footer i {
