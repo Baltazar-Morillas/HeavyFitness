@@ -8,6 +8,20 @@ main{
     background: linear-gradient(white, rgb(173, 172, 172));
     min-height: 80vh;
     font-family: 'Kanit', sans-serif;;
+
+    .grid-container{
+        max-width: 900px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+
+        img{
+            height: 300px;
+        }
+    }
 }
 
 h2{
