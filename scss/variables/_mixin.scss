@@ -1,0 +1,8 @@
+%tipografia {
+    margin: 15px;
+    font-family: 'Kanit', sans-serif;;
+}
+
+@mixin colorFondo ($color){
+    background-color: $color;
+}

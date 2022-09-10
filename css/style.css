@@ -1,3 +1,7 @@
+.header li, .footer ul div {
+  margin: 15px;
+  font-family: 'Kanit', sans-serif; }
+
 * {
   margin: 0;
   padding: 0;
@@ -60,9 +64,6 @@ h2 {
   .header ul {
     list-style: none;
     display: flex; }
-  .header li {
-    margin: 15px;
-    font-family: 'Kanit', sans-serif; }
   .header a {
     color: white;
     text-decoration: none; }
@@ -101,15 +102,12 @@ main .textoInicio {
     width: 400px;
     margin: 0 auto;
     justify-content: center; }
-    .footer ul div {
-      margin: 15px;
-      font-family: 'Kanit', sans-serif; }
-      .footer ul div a {
-        color: white;
-        text-decoration: none; }
-        .footer ul div a:hover {
-          color: #14ffef;
-          font-weight: bold; }
+    .footer ul div a {
+      color: white;
+      text-decoration: none; }
+      .footer ul div a:hover {
+        color: #14ffef;
+        font-weight: bold; }
   .footer p {
     margin: 0; }
   .footer i {
