@@ -1,5 +1,24 @@
 .main-accesorios {
-    img {
-        padding: 20px;
+    .cards {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 30px;
+
+        .card {
+            border-radius: 0;
+
+            &:hover {
+                box-shadow: 5px 5px;
+                transition-duration: 0.3s;
+            }
+        }
+
+        img {
+            padding: 20px;
+        }
     }
 }
+
+    // img {
+    //     padding: 20px;
+    // }

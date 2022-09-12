@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,16 @@
         @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
     </style>
     <script src="https://kit.fontawesome.com/05106ea404.js" crossorigin="anonymous"></script>
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <title>Accesorios | Heavy Fitness</title>
     <meta name="description" content="HeavyFitness ofrece una gran variedad de accesorios para vos.">
     <meta name="keywords" content="mancuernas, deportivo, guantes, gimnasio, accesorio">
+    <title>Accesorios | Heavy Fitness</title>
     <link rel="shortcut icon" href="../Imagenes/Logo.jpg">
 </head>
+
 <body>
     <header class="header">
         <!-- Logo -->
@@ -39,20 +44,57 @@
     </header>
 
     <main class="main-accesorios">
+        <nav aria-label="breadcrumb" class="miga-de-pan">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Accesorios</li>
+            </ol>
+        </nav>
+
         <h2>Accesorios</h2>
-        <div class="grid-container">
+        <div class="cards">
+            <div class="card" style="width: 18rem;">
+                <img src="../Imagenes/cinturon de levantamiento.jpg" class="card-img-top" alt="Cinturón de levantamiento">
+                <div class="card-body">
+                    <h5 class="card-title">Cinturón de levantamiento de pesas SARED</h5>
+                    <p class="card-text">El cinturón de levantamiento de pesas Sared esta diseñado con el mejor cuero 100% Colombiano de la más alta calidad. En la parte interna contamos con un forro en Eva microporoso para una mayor comodidad.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../Imagenes/Rueda abdominal.jpg" class="card-img-top" alt="Rueda abdominal">
+                <div class="card-body">
+                    <h5 class="card-title">Rueda doble para abdominales QUUZ</h5>
+                    <p class="card-text">Ideal para ejercitar Abdominales y zona media.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../Imagenes/mancuernas.jpg" class="card-img-top" alt="Mancuernas">
+                <div class="card-body">
+                    <h5 class="card-title">Set de mancuernas 20KG(Plástico)</h5>
+                    <p class="card-text">Ideal para el entrenamiento corporal de bíceps, tríceps, deltoides y músculos pectorales.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="grid-container">
             <div><img src="../Imagenes/guantes.jpg" alt="Guantes"></div>
             <div><img src="../Imagenes/Rueda abdominal.jpg" alt="Rueda abdominal"></div>
             <div><img src="../Imagenes/mancuernas.jpg" alt="Mancuernas"></div>
-        </div>
+        </div> -->
     </main>
 
     <footer class="footer">
         <ul>
-            <div><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/heavyfitness.suplementos/">Instagram</a></div>
-            <div><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/profile.php?id=100073562241458">Facebook</a></div>
+            <div><i class="fa-brands fa-instagram"></i><a
+                    href="https://www.instagram.com/heavyfitness.suplementos/">Instagram</a></div>
+            <div><i class="fa-brands fa-facebook"></i><a
+                    href="https://www.facebook.com/profile.php?id=100073562241458">Facebook</a></div>
         </ul>
         <p>Hecho con amor por Comision 33020 &copy</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
