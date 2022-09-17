@@ -1,7 +1,24 @@
+main{
+    
 .main-contacto {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    align-items: center;
-    align-content: center;
     justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+    .map{
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+.accordion{
+    padding: 20px;
+    
+    .accordion-item{
+        border: none;
+    }
+}
 }

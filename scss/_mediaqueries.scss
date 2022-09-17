@@ -1,10 +1,24 @@
-@media (max-width: 900px){
+@media (max-width: 930px){
     .grid-container{
         grid-template-columns: repeat(2,1fr);
 
         @media (max-width: 680px){
             grid-template-columns: repeat(1,1fr);
         }
+    }
+
+    .cards{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+
+        @media (max-width: 680px){
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    .ropa-cards{
+        grid-template-columns: repeat(1, 1fr) !important;
     }
 
     .header{
@@ -21,6 +35,24 @@
                 display: grid;
                 grid-template-columns: repeat(3,1fr);
             }
+        }
+
+        @media (max-width: 350px){
+            ul{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .main-contacto{ 
+        grid-template-columns: repeat(1,1fr) !important;
+
+        .map{
+            justify-items: center;
+            padding: 10px;
         }
     }
 }

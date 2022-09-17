@@ -7,6 +7,16 @@
         .card {
             border-radius: 0;
 
+            .precio{
+                margin: 10px;
+            }
+
+            a{
+                display: block;
+                width: 110px;
+                margin: 10px;
+            }
+
             &:hover {
                 box-shadow: 5px 5px;
                 transition-duration: 0.3s;

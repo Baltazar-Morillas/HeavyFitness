@@ -26,24 +26,49 @@ h2 {
   margin: 20px;
   padding: 5px; }
 
+header .form {
+  margin: 10px; }
+
 .main-accesorios .cards {
   display: flex;
   justify-content: space-evenly;
   padding: 30px; }
   .main-accesorios .cards .card {
     border-radius: 0; }
+    .main-accesorios .cards .card .precio {
+      margin: 10px; }
+    .main-accesorios .cards .card a {
+      display: block;
+      width: 110px;
+      margin: 10px; }
     .main-accesorios .cards .card:hover {
       box-shadow: 5px 5px;
       transition-duration: 0.3s; }
   .main-accesorios .cards img {
     padding: 20px; }
 
-.main-contacto {
+.main-ropa .ropa-cards {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center; }
+  .main-ropa .ropa-cards .card {
+    margin: 5px; }
+
+main .main-contacto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-items: center;
+  justify-content: center;
   align-items: center;
-  align-content: center;
-  justify-content: center; }
+  margin: 10px; }
+  main .main-contacto .map {
+    width: 100%;
+    overflow: hidden; }
+
+main .accordion {
+  padding: 20px; }
+  main .accordion .accordion-item {
+    border: none; }
 
 .main-suplementos .cards {
   display: flex;
@@ -51,6 +76,12 @@ h2 {
   padding: 30px; }
   .main-suplementos .cards .card {
     border-radius: 0; }
+    .main-suplementos .cards .card .precio {
+      margin: 10px; }
+    .main-suplementos .cards .card a {
+      display: block;
+      width: 110px;
+      margin: 10px; }
     .main-suplementos .cards .card:hover {
       box-shadow: 5px 5px;
       transition-duration: 0.3s; }
@@ -122,23 +153,45 @@ main .textoInicio {
   .footer i {
     padding: 5px; }
 
-@media (max-width: 900px) {
+@media (max-width: 930px) {
   .grid-container {
     grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 900px) and (max-width: 680px) {
+  @media (max-width: 930px) and (max-width: 680px) {
     .grid-container {
       grid-template-columns: repeat(1, 1fr); } }
 
-@media (max-width: 900px) {
+@media (max-width: 930px) {
+  .cards {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center; } }
+  @media (max-width: 930px) and (max-width: 680px) {
+    .cards {
+      grid-template-columns: repeat(1, 1fr); } }
+
+@media (max-width: 930px) {
+  .ropa-cards {
+    grid-template-columns: repeat(1, 1fr) !important; }
   .header {
     flex-direction: column; } }
-  @media (max-width: 900px) and (max-width: 680px) {
+  @media (max-width: 930px) and (max-width: 680px) {
     .header img {
       width: 150px; } }
-  @media (max-width: 900px) and (max-width: 500px) {
+  @media (max-width: 930px) and (max-width: 500px) {
     .header ul {
       display: grid;
       grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 930px) and (max-width: 350px) {
+    .header ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 800px) {
+  .main-contacto {
+    grid-template-columns: repeat(1, 1fr) !important; }
+    .main-contacto .map {
+      justify-items: center;
+      padding: 10px; } }
 
 @media (max-width: 680px) {
   .footer ul {
