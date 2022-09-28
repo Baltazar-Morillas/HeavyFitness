@@ -1,77 +1,90 @@
-@media (max-width: 930px){
-    .grid-container{
-        grid-template-columns: repeat(2,1fr);
-
-        @media (max-width: 680px){
-            grid-template-columns: repeat(1,1fr);
-        }
-    }
-
-    .cards{
-        display: grid !important;
+@media (max-width: 930px) {
+    .grid-container {
         grid-template-columns: repeat(2, 1fr);
-        justify-items: center;
 
-        @media (max-width: 680px){
+        @media (max-width: 680px) {
             grid-template-columns: repeat(1, 1fr);
         }
     }
 
-    .ropa-cards{
-        grid-template-columns: repeat(1, 1fr) !important;
+    .cards {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+
+        @media (max-width: 680px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
     }
 
-    .header{
+    .ropa-cards {
+        grid-template-columns: repeat(1, 1fr) !important;
+
+        @media(max-width: 770px){
+            .cardAltura{
+            max-height: none !important;
+            }
+
+            .card{
+                .col-md-4{
+                    display: grid;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    .header {
         flex-direction: column;
 
-        @media (max-width: 680px){
-            img{
+        @media (max-width: 680px) {
+            img {
                 width: 150px;
             }
         }
 
-        @media (max-width: 500px){
-            ul{
+        @media (max-width: 500px) {
+            ul {
                 display: grid;
-                grid-template-columns: repeat(3,1fr);
+                grid-template-columns: repeat(3, 1fr);
             }
         }
 
-        @media (max-width: 350px){
-            ul{
+        @media (max-width: 350px) {
+            ul {
                 display: grid;
-                grid-template-columns: repeat(2,1fr);
+                grid-template-columns: repeat(2, 1fr);
             }
         }
     }
 }
 
-@media (max-width: 800px){
-    .main-contacto{ 
-        grid-template-columns: repeat(1,1fr) !important;
+@media (max-width: 800px) {
+    .main-contacto {
+        grid-template-columns: repeat(1, 1fr) !important;
 
-        .map{
+        .map {
             justify-items: center;
             padding: 10px;
         }
     }
 }
 
-@media (max-width: 680px){
-    .footer{
-        ul{
+@media (max-width: 680px) {
+    .footer {
+        ul {
             width: 182px;
         }
 
-        div{
+        div {
             display: flex;
         }
     }
 }
 
-@media (max-width: 500px){
-    .textoInicio{
-        p{
+@media (max-width: 500px) {
+    .textoInicio {
+        p {
             font-size: 12px;
         }
     }

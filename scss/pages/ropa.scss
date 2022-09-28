@@ -6,6 +6,15 @@
 
         .card{
             margin: 5px;
+
+            .precio-flex{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        .cardAltura{
+            max-height: 13rem;
         }
     }
 }

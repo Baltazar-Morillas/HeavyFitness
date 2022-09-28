@@ -30,9 +30,9 @@ header .form {
   margin: 10px; }
 
 .main-accesorios .cards {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 30px; }
+  display: grid;
+  padding: 30px;
+  grid-template-columns: auto; }
   .main-accesorios .cards .card {
     border-radius: 0; }
     .main-accesorios .cards .card .precio {
@@ -53,6 +53,11 @@ header .form {
   justify-items: center; }
   .main-ropa .ropa-cards .card {
     margin: 5px; }
+    .main-ropa .ropa-cards .card .precio-flex {
+      display: flex;
+      justify-content: space-between; }
+  .main-ropa .ropa-cards .cardAltura {
+    max-height: 13rem; }
 
 main .main-contacto {
   display: grid;
@@ -171,7 +176,15 @@ main .textoInicio {
 
 @media (max-width: 930px) {
   .ropa-cards {
-    grid-template-columns: repeat(1, 1fr) !important; }
+    grid-template-columns: repeat(1, 1fr) !important; } }
+  @media (max-width: 930px) and (max-width: 770px) {
+    .ropa-cards .cardAltura {
+      max-height: none !important; }
+    .ropa-cards .card .col-md-4 {
+      display: grid;
+      justify-content: center; } }
+
+@media (max-width: 930px) {
   .header {
     flex-direction: column; } }
   @media (max-width: 930px) and (max-width: 680px) {

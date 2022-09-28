@@ -1,17 +1,17 @@
 .main-accesorios {
     .cards {
-        display: flex;
-        justify-content: space-evenly;
+        display: grid;
         padding: 30px;
+        grid-template-columns: auto;
 
         .card {
             border-radius: 0;
 
-            .precio{
+            .precio {
                 margin: 10px;
             }
 
-            a{
+            a {
                 display: block;
                 width: 110px;
                 margin: 10px;
@@ -28,7 +28,3 @@
         }
     }
 }
-
-    // img {
-    //     padding: 20px;
-    // }
