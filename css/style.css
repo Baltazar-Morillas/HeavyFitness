@@ -29,23 +29,26 @@ h2 {
 header .form {
   margin: 10px; }
 
-.main-accesorios .cards {
-  display: grid;
-  padding: 30px;
-  grid-template-columns: auto; }
-  .main-accesorios .cards .card {
-    border-radius: 0; }
-    .main-accesorios .cards .card .precio {
-      margin: 10px; }
-    .main-accesorios .cards .card a {
-      display: block;
-      width: 110px;
-      margin: 10px; }
-    .main-accesorios .cards .card:hover {
-      box-shadow: 5px 5px;
-      transition-duration: 0.3s; }
-  .main-accesorios .cards img {
-    padding: 20px; }
+.main-accesorios .row {
+  margin-left: 0;
+  margin-right: 0; }
+  .main-accesorios .row .cards {
+    display: grid;
+    padding: 30px;
+    grid-template-columns: auto; }
+    .main-accesorios .row .cards .card {
+      border-radius: 0; }
+      .main-accesorios .row .cards .card .precio {
+        margin: 10px; }
+      .main-accesorios .row .cards .card a {
+        display: block;
+        width: 110px;
+        margin: 10px; }
+      .main-accesorios .row .cards .card:hover {
+        box-shadow: 5px 5px;
+        transition-duration: 0.3s; }
+    .main-accesorios .row .cards img {
+      padding: 20px; }
 
 .main-ropa .ropa-cards {
   display: grid;
