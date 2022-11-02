@@ -79,14 +79,22 @@
                 <a href="#" class="btn btn-dark">Comprar</a>
             </div> -->
         </div>
-
-
-        <!-- <h2>Suplementos</h2>
-        <div class="grid-container">
-            <div><img src="../Imagenes/yeah buddy.jpg" alt="suplementos"></div>
-            <div><img src="../Imagenes/creatina.jpg" alt="suplementos"></div>
-            <div><img src="../Imagenes/Proteina.jpg" alt="suplementos"></div>
-        </div> -->
+        <div class="tablaCarrito">
+            <h4>Tu carrito:</h4>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody id="tablabody">
+                    <!-- Tabla carrito -->
+                </tbody>
+            </table>
+            <h4 id="total">Total a pagar $:</h4>
+        </div>
     </main>
 
     <footer class="footer">
@@ -96,7 +104,13 @@
         </ul>
         <p>Hecho con amor por Comision 33020 &copy</p>
     </footer>
+    
+    <!-- Script de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    <script src="../Clase_8.js"></script>
+    <!-- SweetAlert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Mi script -->
+    <script src="../productos.js"></script>
+    <script src="../logica.js"></script>
 </body>
 </html>

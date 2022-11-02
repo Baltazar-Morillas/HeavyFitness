@@ -22,6 +22,9 @@ main {
     main .grid-container img {
       height: 300px; }
 
+h4 {
+  margin-bottom: 0; }
+
 h2 {
   margin: 20px;
   padding: 5px; }
@@ -86,7 +89,7 @@ main .accordion {
     border-radius: 0; }
     .main-suplementos .cards .card .precio {
       margin: 10px; }
-    .main-suplementos .cards .card a {
+    .main-suplementos .cards .card button {
       display: block;
       width: 110px;
       margin: 10px; }
@@ -95,6 +98,10 @@ main .accordion {
       transition-duration: 0.3s; }
   .main-suplementos .cards img {
     padding: 20px; }
+
+.main-suplementos .tablaCarrito {
+  padding: 20px;
+  border: 2px solid #302e2e; }
 
 .header {
   background-color: black;

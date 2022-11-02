@@ -11,7 +11,7 @@
                 margin: 10px;
             }
 
-            a{
+            button{
                 display: block;
                 width: 110px;
                 margin: 10px;
@@ -26,5 +26,9 @@
         img {
             padding: 20px;
         }
+    }
+    .tablaCarrito{
+        padding: 20px;
+        border: 2px solid rgb(48, 46, 46);
     }
 }
