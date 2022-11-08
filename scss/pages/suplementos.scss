@@ -27,8 +27,16 @@
             padding: 20px;
         }
     }
-    .tablaCarrito{
+    .cssTabla{
         padding: 20px;
-        border: 2px solid rgb(48, 46, 46);
+        .tablaCarrito{
+            padding: 20px;
+            border: 2px solid rgb(48, 46, 46);
+        }
+    }
+
+    .cssFinalizar{
+        padding: 15px;
+        padding-left: 20px;
     }
 }

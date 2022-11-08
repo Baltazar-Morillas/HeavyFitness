@@ -99,9 +99,15 @@ main .accordion {
   .main-suplementos .cards img {
     padding: 20px; }
 
-.main-suplementos .tablaCarrito {
-  padding: 20px;
-  border: 2px solid #302e2e; }
+.main-suplementos .cssTabla {
+  padding: 20px; }
+  .main-suplementos .cssTabla .tablaCarrito {
+    padding: 20px;
+    border: 2px solid #302e2e; }
+
+.main-suplementos .cssFinalizar {
+  padding: 15px;
+  padding-left: 20px; }
 
 .header {
   background-color: black;
