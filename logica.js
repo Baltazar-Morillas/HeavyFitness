@@ -7,6 +7,11 @@ let suplementosCards = document.getElementById("cards");
 let botonFinalizar = document.getElementById("finalizar");
 let carrito =JSON.parse(localStorage.getItem("carrito")) || [];
 
+/*Luxon*/
+const DateTime = luxon.DateTime;
+//momento en que se ingresa a la web
+const ahora = DateTime.now();
+
 if(carrito.lenght != 0){
     console.log("Recuperando carro");
     dibujarTabla();
@@ -154,7 +159,7 @@ botonFinalizar.onclick = () => {
         const cierreDeCompra = DateTime.now();
         const interval = luxon.Interval;
         const tiempo = interval.fromDateTimes(ahora, cierreDeCompra);
-        console.log("Tardaste "+tiempo.lenght('seconds')+" en comprar");
+        console.log("Tardaste "+tiempo.length('seconds')+" en comprar");
         localStorage.removeItem("carrito");
     }
 }
